@@ -349,7 +349,7 @@ public static class StringNbt
             var c = char.ToLowerInvariant(scanner.Current);
             if (c == ']')
                 break;
-            if (char.IsNumber(c) || c == ',')
+            if (char.IsNumber(c) || c == '-' || c == ',')
                 continue;
             if (c is not ('b' or 'l'))
                 scanner.SyntaxError($"Invalid character '{c}' in integer array.");

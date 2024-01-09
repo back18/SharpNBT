@@ -6,3 +6,5 @@ riderModule.iml
 Documentation/
 /.vs/SharpNBT
 /.gitignore
+/SharpNBT/Properties/PublishProfiles
+/SharpNBT/SharpNBT.csproj.user
